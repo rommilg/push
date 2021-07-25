@@ -18,4 +18,4 @@ push.setVapidDetails(
 
 let sub{};
 
-push.sendNotification(sub,"te");
+push.sendNotification(sub,"te"); 

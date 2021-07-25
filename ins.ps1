@@ -4,3 +4,12 @@ npm i web-push
 
 #get vapidKyes
 node push.js
+
+git init
+
+git remote add origin https://github.com/rommilg/push.git
+
+#create file
+#.girignore node_modules
+
+git add .
