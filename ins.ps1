@@ -13,3 +13,9 @@ git remote add origin https://github.com/rommilg/push.git
 #.girignore node_modules
 
 git add .
+
+git status
+
+git commit -m "initial"
+
+git push origin master -u
