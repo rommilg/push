@@ -16,6 +16,6 @@ push.setVapidDetails(
   vapidKeys.privateKey
 );
 
-let sub{};
+let sub={"endpoint":"https://fcm.googleapis.com/fcm/send/feFVPtSYBf4:APA91bH9laJtL4g9aQysfBbKJvNEMrSUtKEXotqiwVu7ea_K42ci2ZmpZtLKybS92ELepbMsIBWWkRu7YfB_diL7OkYd8smKlyRqdfAg12lHwzPRIo_CdagxEok_1EVa5vzykdEwGge3","expirationTime":null,"keys":{"p256dh":"BGRRu2xC6juPIDwXCb-B5Nj1eQWN5ETGNJ7QjENkvmOrFqPPBiNX95Q3TXeUCKKq7V4ynpi7Lr0KbXEzAqje8ic","auth":"NlLTvxPOYrC6SwbUAR_Wvg"}};
 
-push.sendNotification(sub,"te"); 
+push.sendNotification(sub,"test message"); 
