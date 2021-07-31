@@ -19,3 +19,10 @@ git status
 git commit -m "initial"
 
 git push origin master -u
+
+npm i netlify-cli -g
+
+npm netlify deploy
+
+#מייצר קוד
+node push.js
