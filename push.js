@@ -6,7 +6,7 @@ var push = require("web-push");
 
 let vapidKeys ={
   publicKey: 'BMO7_S-89fjTdrnJROByPpk1FTxhOwMQLNPPd3PGGSnkXuegDnwqzwuP7IqgyWCzW7D_uhhZZAlQcEmQuVKCUT0',
-  privateKey: '1ZIrz5LC10RGqDzaoGnhB2sekZa_TSga8x669Iz26KY'
+  privateKey: '1ZIrz5LC10RGqDzaoGnhB2sekZa_TSga8x669Iz26KY' 
 };
 
 push.setVapidDetails(
